@@ -476,31 +476,31 @@
                 </div> -->
 
                 <div class="contact">
-                    <form action="POST" data-netlify="true">
+                    <form action="POST" data-netlify="true" name="netlify">
                         <!-- Grouping in paragraphs is important so that Grid can identify whats 1 fraction/2 fraction -->
                         <p>
                             <label for="">First Name</label>
-                            <input type="text" name="firstName">
+                            <input type="text" name="firstName" required>
                         </p>
 
                         <p>
                             <label for="">Last Name</label>
-                            <input type="text" name="lastName">
+                            <input type="text" name="lastName" required>
                         </p>
 
                         <p>
                             <label for="">Phone Number</label>
-                            <input type="number" name="number">
+                            <input type="number" name="number" required>
                         </p>
 
                         <p>
                             <label for="">Email</label>
-                            <input type="email" name="email">
+                            <input type="email" name="email" required>
                         </p>
 
                         <p class="grid-area">
                             <label>Whats your Message?</label>
-                            <textarea name="" id="message" cols="30" rows="6" name="message"></textarea>
+                            <textarea name="" id="message" cols="30" rows="6" name="message" required></textarea>
                         </p>
 
                         <div>
