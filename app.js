@@ -760,6 +760,6 @@ window.onload = function () {
     recaptcha.required = true;
     recaptcha.oninvalid = function (e) {
         // do something
-        alert("Please check the box, \"I'm not a robot\" in the reCaptcha below.");
+        alert("Please make sure to check the \"I'm not a robot\" box below.");
     }
 }
