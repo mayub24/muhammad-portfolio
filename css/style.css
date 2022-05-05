@@ -1073,6 +1073,14 @@ h1.yo {
   color: #2fff0a;
 }
 
+.work .top-head h5.mgcs {
+  color: #18aaff;
+}
+
+.work .top-head h5.ism {
+  color: turquoise;
+}
+
 .work .info {
   overflow: auto;
   display: -ms-grid;
@@ -1425,9 +1433,20 @@ h1.yo {
   outline: none;
 }
 
-.wrapper .contact form button, .wrapper .contact form textarea, .wrapper .contact form input {
+.wrapper .contact form textarea, .wrapper .contact form input {
   width: 100%;
   padding: 6px;
+}
+
+.wrapper .contact form button {
+  width: 100%;
+  padding: 0.75em;
+  background: #B4975A;
+  border: 2px solid #B4975A;
+  color: black;
+  font-size: 0.95em;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
 /* MODAL */
