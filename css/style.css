@@ -375,10 +375,9 @@ article .middle .name h1.last {
 }
 
 article .middle .square-img {
+  position: relative;
   text-align: center;
   display: block;
-  -webkit-transform: rotate(-2deg) translateY(0%);
-          transform: rotate(-2deg) translateY(0%);
 }
 
 article .middle .square-img img {
@@ -1416,7 +1415,8 @@ h1.yo {
   outline: none;
 }
 
-.wrapper .grid-area, .wrapper textarea {
+.wrapper .grid-area,
+.wrapper textarea {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-column: 1/3;
@@ -1433,7 +1433,8 @@ h1.yo {
   outline: none;
 }
 
-.wrapper .contact form textarea, .wrapper .contact form input {
+.wrapper .contact form textarea,
+.wrapper .contact form input {
   width: 100%;
   padding: 6px;
 }
@@ -1472,8 +1473,8 @@ h1.yo {
   position: relative;
   color: white;
   max-width: 50%;
-  -webkit-box-shadow: 1px 1px 15px 3px  #B4975A;
-          box-shadow: 1px 1px 15px 3px  #B4975A;
+  -webkit-box-shadow: 1px 1px 15px 3px #B4975A;
+          box-shadow: 1px 1px 15px 3px #B4975A;
   border-radius: 10px;
   border: 2px solid black;
   margin: 0 auto;
