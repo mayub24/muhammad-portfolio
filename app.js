@@ -527,7 +527,7 @@ buttons.forEach((eachBtn) => {
                         grid.children[0].src = './memory.png';
                         grid.children[1].innerHTML = 'Memory Card Game';
                         grid.children[1].style.textAlign = 'center';
-                        grid.href = 'https://memory-card-flip-app.netlify.app/';
+                        grid.href = 'https://memory-card-game-co1.pages.dev/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -569,7 +569,7 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './ttt.png';
                         console.log(grid.children[1].innerHTML = 'Tic Tac Toe');
-                        console.log(grid.href = 'https://tic-tac-toe-js-app.netlify.app/');
+                        console.log(grid.href = 'https://tic-tac-toe-ant.pages.dev/');
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
