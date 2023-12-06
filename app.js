@@ -57,7 +57,7 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './quix.png';
                         grid.children[1].innerHTML = 'Trivia App';
-                        grid.href = 'https://trivia-question-app.netlify.app/';
+                        grid.href = 'https://trivia-app-do1.pages.dev/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -98,7 +98,7 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './gits.png';
                         console.log(grid.children[1].innerHTML = 'Github User Search');
-                        console.log(grid.href = 'https://github-user-locator-app.netlify.app/');
+                        console.log(grid.href = 'https://github-search-8o4.pages.dev/');
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -118,7 +118,7 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './todo.png';
                         console.log(grid.children[1].innerHTML = 'Todo List');
-                        console.log(grid.href = 'https://todo-tasks-application.netlify.app/');
+                        console.log(grid.href = 'https://todo-list-app-4ot.pages.dev/');
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -147,7 +147,7 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './netflix.png';
                         console.log(grid.children[1].innerHTML = 'Netflix Project');
-                        console.log(grid.href = 'https://sad-goldstine-416704.netlify.app/');
+                        console.log(grid.href = 'https://netflix-project-f16.pages.dev/');
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -168,7 +168,7 @@ buttons.forEach((eachBtn) => {
                         grid.children[0].src = './cloudflare.png';
                         grid.children[1].innerHTML = 'Cloudflare Clone (Flex/Grid)';
                         grid.children[1].style.textAlign = 'center';
-                        grid.href = 'https://dummy-grid-flex-app.netlify.app';
+                        grid.href = 'https://cloudflare-clone.pages.dev/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -191,7 +191,7 @@ buttons.forEach((eachBtn) => {
                         grid.children[1].innerHTML = 'Starbucks Modern Design (Flex/Grid)';
                         grid.children[1].style.textAlign = 'center';
                         grid.children[1].style.paddingTop = '0.5em';
-                        grid.href = 'https://starbucks-app.netlify.app/';
+                        grid.href = 'https://starbucks-new-design.pages.dev/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -211,7 +211,7 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './micro.png';
                         console.log(grid.children[1].innerHTML = 'Microsoft Website Clone');
-                        console.log(grid.href = 'https://microsoft-front-page-clone.netlify.app/');
+                        console.log(grid.href = 'https://microsoft-website-clone.pages.dev/');
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -240,7 +240,7 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './mlogo.png';
                         console.log(grid.children[1].innerHTML = 'Mixure Books');
-                        console.log(grid.href = 'https://mixure-books.netlify.app/');
+                        console.log(grid.href = 'https://bootstrap-book.pages.dev/');
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -261,7 +261,7 @@ buttons.forEach((eachBtn) => {
                         grid.children[0].src = './plane.png';
                         grid.children[1].innerHTML = 'Travel App';
                         grid.children[1].style.textAlign = 'center';
-                        grid.href = 'https://travelvillage.netlify.app/';
+                        grid.href = 'https://travel-agency-19f.pages.dev/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -283,7 +283,7 @@ buttons.forEach((eachBtn) => {
                         grid.children[0].src = './nation-one.png';
                         grid.children[1].innerHTML = 'Nation One';
                         grid.children[1].style.textAlign = 'center';
-                        grid.href = 'https://nation-one.netlify.app/';
+                        grid.href = 'https://nation-one.pages.dev/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -303,7 +303,7 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './boot.png';
                         console.log(grid.children[1].innerHTML = 'John\'s Portfolio');
-                        console.log(grid.href = 'https://bobs-portfolio.netlify.app/');
+                        console.log(grid.href = 'https://bootstrapportfolio.pages.dev/');
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -414,7 +414,7 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './airbnb.png';
                         grid.children[1].innerHTML = 'Airbnb Clone';
-                        grid.href = 'https://airbnb-web.herokuapp.com/';
+                        grid.href = 'https://airbnb-app-9nci.onrender.com/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -435,7 +435,7 @@ buttons.forEach((eachBtn) => {
                         grid.children[0].src = './passport.png';
                         grid.children[1].innerHTML = 'Passport JS Authentication';
                         grid.children[1].style.textAlign = 'center';
-                        grid.href = 'https://local-passport-auth.herokuapp.com/';
+                        grid.href = 'https://google-auth-app.onrender.com/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -477,7 +477,7 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './note.png';
                         console.log(grid.children[1].innerHTML = 'Story CRUD Application');
-                        console.log(grid.href = 'https://user-story-application.herokuapp.com/');
+                        console.log(grid.href = 'https://story-app-ywbz.onrender.com/login');
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
