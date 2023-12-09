@@ -506,7 +506,7 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './million.png';
                         console.log(grid.children[1].innerHTML = 'Who Want\'s To Be A Millionare?');
-                        console.log(grid.href = 'https://who-wants-to-be-a-millionare.netlify.app/');
+                        console.log(grid.href = 'https://millionare-app.pages.dev/');
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -549,7 +549,7 @@ buttons.forEach((eachBtn) => {
                         grid.children[0].src = './reddice.png';
                         grid.children[1].innerHTML = 'Pig Dice Game';
                         grid.children[1].style.textAlign = 'center';
-                        grid.href = 'https://pig-dice-app.netlify.app/';
+                        grid.href = 'https://pig-dice-game2.pages.dev/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
