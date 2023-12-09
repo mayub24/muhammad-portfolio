@@ -414,7 +414,7 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './airbnb.png';
                         grid.children[1].innerHTML = 'Airbnb Clone';
-                        grid.href = 'https://airbnb-app-9nci.onrender.com/';
+                        grid.href = 'https://airbnb-fbv7.onrender.com/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
