@@ -414,7 +414,7 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './airbnb.png';
                         grid.children[1].innerHTML = 'Airbnb Clone';
-                        grid.href = 'https://airbnb-fbv7.onrender.com/';
+                        grid.href = 'https://airbnb-project.up.railway.app/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -435,7 +435,7 @@ buttons.forEach((eachBtn) => {
                         grid.children[0].src = './passport.png';
                         grid.children[1].innerHTML = 'Passport JS Authentication';
                         grid.children[1].style.textAlign = 'center';
-                        grid.href = 'https://google-auth-app.onrender.com/';
+                        grid.href = 'https://post-app-google-auth.up.railway.app/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -477,7 +477,7 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './note.png';
                         console.log(grid.children[1].innerHTML = 'Story CRUD Application');
-                        console.log(grid.href = 'https://story-app-ywbz.onrender.com/login');
+                        console.log(grid.href = 'https://story-app-crud-app-production.up.railway.app/');
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
