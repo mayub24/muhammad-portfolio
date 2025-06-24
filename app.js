@@ -22,7 +22,6 @@ buttons.forEach((eachBtn) => {
         document.querySelector('#btn2').disabled = false;
         document.querySelector('#btn3').disabled = false;
         document.querySelector('#btn4').disabled = false;
-        document.querySelector('#btn5').disabled = false;
         document.querySelector('#btn6').disabled = false;
 
         // getting the element that has active and removing it
@@ -41,7 +40,7 @@ buttons.forEach((eachBtn) => {
         // if btn1
         if (e.target.id == 'btn1') {
             projects.forEach((grid) => {
-
+                grid.children[0].parentElement.style.pointerEvents = 'auto';
                 grid.parentElement.style.display = 'flex';
                 document.querySelector('.soon').style.display = 'none';
                 document.querySelector('.soon').style.transition = '0.5s ease-in-out';
@@ -57,7 +56,7 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './quix.png';
                         grid.children[1].innerHTML = 'Trivia App';
-                        grid.href = 'https://trivia-app-do1.pages.dev/';
+                        grid.href = 'https://trivia-app-lac-beta.vercel.app/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -98,7 +97,7 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './gits.png';
                         console.log(grid.children[1].innerHTML = 'Github User Search');
-                        console.log(grid.href = 'https://github-search-8o4.pages.dev/');
+                        console.log(grid.href = 'https://github-user-search-theta-olive.vercel.app/');
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -118,7 +117,7 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './todo.png';
                         console.log(grid.children[1].innerHTML = 'Todo List');
-                        console.log(grid.href = 'https://todo-list-app-4ot.pages.dev/');
+                        console.log(grid.href = 'https://todo-list-app-eight-orpin.vercel.app/');
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -133,7 +132,7 @@ buttons.forEach((eachBtn) => {
         // if btn2
         else if (e.target.id == 'btn2') {
             projects.forEach((grid) => {
-
+                grid.children[0].parentElement.style.pointerEvents = 'auto';
                 grid.parentElement.style.display = 'flex';
                 document.querySelector('.soon').style.display = 'none';
                 document.querySelector('.soon').style.transition = '0.5s ease-in-out';
@@ -147,7 +146,7 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './netflix.png';
                         console.log(grid.children[1].innerHTML = 'Netflix Project');
-                        console.log(grid.href = 'https://netflix-project-f16.pages.dev/');
+                        console.log(grid.href = 'https://netflix-project-gray.vercel.app/');
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -168,7 +167,7 @@ buttons.forEach((eachBtn) => {
                         grid.children[0].src = './cloudflare.png';
                         grid.children[1].innerHTML = 'Cloudflare Clone (Flex/Grid)';
                         grid.children[1].style.textAlign = 'center';
-                        grid.href = 'https://cloudflare-clone.pages.dev/';
+                        grid.href = 'https://cloudflare-dummy-website-74jc.vercel.app/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -191,7 +190,7 @@ buttons.forEach((eachBtn) => {
                         grid.children[1].innerHTML = 'Starbucks Modern Design (Flex/Grid)';
                         grid.children[1].style.textAlign = 'center';
                         grid.children[1].style.paddingTop = '0.5em';
-                        grid.href = 'https://starbucks-new-design.pages.dev/';
+                        grid.href = 'https://starbucks-modern.vercel.app/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -211,7 +210,7 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './micro.png';
                         console.log(grid.children[1].innerHTML = 'Microsoft Website Clone');
-                        console.log(grid.href = 'https://microsoft-website-clone.pages.dev/');
+                        console.log(grid.href = 'https://microsoft-website-clone-two.vercel.app/');
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -219,14 +218,20 @@ buttons.forEach((eachBtn) => {
                         grid.parentElement.style.transition = '0.5s ease-in-out';
                     }, 2200);
 
-
                 }
             })
         }
         // if btn3
         else if (e.target.id == 'btn3') {
             projects.forEach((grid) => {
-
+                grid.children[0].parentElement.style.pointerEvents = 'auto';
+                console.log(grid.children[0].parentElement);
+                console.log(grid.children[0].className);
+                if(grid.children[0].className == 'img1' ) {
+                    grid.children[0].parentElement.style.pointerEvents = 'none';
+                } else if (grid.children[0].className == 'img4') {
+                    grid.children[0].parentElement.style.pointerEvents = 'none';
+                }
                 grid.parentElement.style.display = 'flex';
                 document.querySelector('.soon').style.display = 'none';
                 document.querySelector('.soon').style.transition = '0.5s ease-in-out';
@@ -239,7 +244,8 @@ buttons.forEach((eachBtn) => {
 
                     setTimeout(() => {
                         grid.children[0].src = './mlogo.png';
-                        console.log(grid.children[1].innerHTML = 'Mixure Books');
+                        grid.children[0].style.pointerEvents = 'none';
+                        console.log(grid.children[1].innerHTML = 'Mixure Books (Coming Soon)');
                         console.log(grid.href = 'https://bootstrap-book.pages.dev/');
 
                         // Transition
@@ -261,7 +267,7 @@ buttons.forEach((eachBtn) => {
                         grid.children[0].src = './plane.png';
                         grid.children[1].innerHTML = 'Travel App';
                         grid.children[1].style.textAlign = 'center';
-                        grid.href = 'https://travel-agency-19f.pages.dev/';
+                        grid.href = 'https://travel-agency-kohl-six.vercel.app/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -283,7 +289,7 @@ buttons.forEach((eachBtn) => {
                         grid.children[0].src = './nation-one.png';
                         grid.children[1].innerHTML = 'Nation One';
                         grid.children[1].style.textAlign = 'center';
-                        grid.href = 'https://nation-one.pages.dev/';
+                        grid.href = 'https://nation-one.vercel.app/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -302,7 +308,7 @@ buttons.forEach((eachBtn) => {
 
                     setTimeout(() => {
                         grid.children[0].src = './boot.png';
-                        console.log(grid.children[1].innerHTML = 'John\'s Portfolio');
+                        console.log(grid.children[1].innerHTML = 'John\'s Portfolio (Coming Soon)');
                         console.log(grid.href = 'https://bootstrapportfolio.pages.dev/');
 
                         // Transition
@@ -317,6 +323,7 @@ buttons.forEach((eachBtn) => {
         }
         else if (e.target.id == 'btn4') {
             projects.forEach((grid) => {
+                grid.children[0].parentElement.style.pointerEvents = 'auto';
                 grid.parentElement.style.display = 'flex';
                 document.querySelector('.soon').style.display = 'none';
                 document.querySelector('.soon').style.transition = '0.5s ease-in-out';
@@ -400,7 +407,7 @@ buttons.forEach((eachBtn) => {
         // if btn3
         else if (e.target.id == 'btn5') {
             projects.forEach((grid) => {
-
+                grid.children[0].parentElement.style.pointerEvents = 'auto';
                 grid.parentElement.style.display = 'flex';
                 document.querySelector('.soon').style.display = 'none';
                 document.querySelector('.soon').style.transition = '0.5s ease-in-out';
@@ -492,7 +499,7 @@ buttons.forEach((eachBtn) => {
         // if btn6
         else if (e.target.id == 'btn6') {
             projects.forEach((grid) => {
-
+                grid.children[0].parentElement.style.pointerEvents = 'auto';
                 grid.parentElement.style.display = 'flex';
                 document.querySelector('.soon').style.display = 'none';
                 document.querySelector('.soon').style.transition = '0.5s ease-in-out';
@@ -506,7 +513,7 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './million.png';
                         console.log(grid.children[1].innerHTML = 'Who Want\'s To Be A Millionare?');
-                        console.log(grid.href = 'https://millionare-app.pages.dev/');
+                        console.log(grid.href = 'https://who-wants-to-be-a-millionaire-dfy5.vercel.app/');
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -527,7 +534,7 @@ buttons.forEach((eachBtn) => {
                         grid.children[0].src = './memory.png';
                         grid.children[1].innerHTML = 'Memory Card Game';
                         grid.children[1].style.textAlign = 'center';
-                        grid.href = 'https://memory-card-game-co1.pages.dev/';
+                        grid.href = 'https://memory-card-game-henna-alpha.vercel.app/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -549,7 +556,7 @@ buttons.forEach((eachBtn) => {
                         grid.children[0].src = './reddice.png';
                         grid.children[1].innerHTML = 'Pig Dice Game';
                         grid.children[1].style.textAlign = 'center';
-                        grid.href = 'https://pig-dice-game2.pages.dev/';
+                        grid.href = 'https://pig-dice-game-liart.vercel.app/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -569,7 +576,7 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './ttt.png';
                         console.log(grid.children[1].innerHTML = 'Tic Tac Toe');
-                        console.log(grid.href = 'https://tic-tac-toe-ant.pages.dev/');
+                        console.log(grid.href = 'https://tic-tac-toe-kkyy.vercel.app/');
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -605,23 +612,30 @@ readBtns.forEach((btn) => {
 
     <div style="width: 85%; margin: 1em auto">
      <li style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-        Performed daily scrums and weekly sprints while working in an Agile environment
+        Conducted thorough accessibility testing of web applications and digital content based on WCAG 2.1 guidelines.
      </li>
 
      <br>
+     
+     
+     <li style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+      Performed manual and automated testing using tools like Axe, WAVE, and NVDA/JAWS screen readers.
+     </li>
+    
+      <br>
+      
+      <li style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+      Enhanced the organization's website content management by integrating Strapi, a headless CMS, enabling users to easily access the latest and most popular blog posts.
+     </li>
+     
+     <br>
 
      <li style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-      Implemented Angular Unit Testing for HTTP Requests performed and verified the data that was received through the API
+      Implemented comprehensive unit tests for Angular components, services, and HTTP requests to ensure code quality and reliability.
      </li>
 
       <br>
-
-     <li style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-      Improved the content management of the organization's website by integrating a headless CMS called "Strapi" allowing users to view the latest and most popular blog
-     </li>
-
-     <br>
-
+      
      </div>
             `
         }

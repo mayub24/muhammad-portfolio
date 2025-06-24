@@ -24,6 +24,23 @@ body {
   z-index: -1;
 }
 
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #B4975A;
+  flex-wrap: wrap;
+}
+
 .bars {
   color: white;
   font-size: 2em;
@@ -1219,7 +1236,7 @@ h1.yo {
 
 .positions {
   background-color: black;
-  padding-bottom: 6em;
+  padding-bottom: 8em;
 }
 
 .open-position {
