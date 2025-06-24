@@ -74,9 +74,9 @@ buttons.forEach((eachBtn) => {
                     }, 400)
 
                     setTimeout(() => {
-                        grid.children[0].src = './guess.jpg';
-                        console.log(grid.children[1].innerHTML = 'Number Guesser');
-                        console.log(grid.href = 'https://number-guesser-js-app.netlify.app/');
+                        grid.children[0].src = './books.png';
+                        console.log(grid.children[1].innerHTML = 'Book Tracker');
+                        console.log(grid.href = 'https://book-tracker-lilac.vercel.app/');
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
