@@ -1614,6 +1614,11 @@ h1.yo {
     -webkit-transform: skewY(-21deg) !important;
             transform: skewY(-21deg) !important;
   }
+
+    .box2 .description h2, .box1 .description h2, .box3 .description h2 {
+        font-size: 1.2em;
+    }
+
   .box3 {
     max-width: 300px;
     height: 150px;
