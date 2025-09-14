@@ -1604,13 +1604,21 @@ h1.yo {
   .work-grid .imgz img {
     width: 70px;
   }
-  .box1 {
+
+    .work .work-grid .box1,
+    .work .work-grid .box2,
+    .work .work-grid .box3 {
+        margin-top: 3em !important;
+        margin-bottom: 3em !important;
+    }
+
+    .box1 {
     max-width: 300px;
     height: 150px;
   }
   .box2 {
     max-width: 300px;
-    height: 250px;
+    height: 280px !important;
     -webkit-transform: skewY(-21deg) !important;
             transform: skewY(-21deg) !important;
   }
