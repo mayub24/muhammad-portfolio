@@ -1618,7 +1618,7 @@ h1.yo {
   }
   .box2 {
     max-width: 300px;
-    height: 280px !important;
+    height: 250px !important;
     -webkit-transform: skewY(-21deg) !important;
             transform: skewY(-21deg) !important;
   }
