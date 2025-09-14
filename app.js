@@ -669,6 +669,36 @@ readBtns.forEach((btn) => {
 
      </div>
             `
+        } else if (e.target.classList[1] == 'ctc') {
+            document.querySelector('.modal-info').innerHTML =
+                `
+               <h2>Job Description</h2>
+
+    <div style="width: 85%; margin: 1em auto">
+     <li style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+            Managed Spring Boot/Angular full-stack applications and built RESTful APIs, security, and responsive user interfaces
+     </li>
+
+     <br>
+
+     <li style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+      Developed and configured scalable Azure solutions through automation tools including ARM templates, PowerShell scripting, and Azure CLI
+     </li>
+
+      <br>
+
+     <li style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+      Used MITRE ATT&CK with KQL to detect and track suspicious system activity by mapping behaviors to known techniques
+     </li>
+     
+     <br>
+     
+     <li style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+      Implemented and maintained CI/CD branch workflows using Git, automating build, test, and deployment processes across development stages
+     </li>
+
+     </div>
+            `
         }
         else {
             document.querySelector('.modal-info').innerHTML =

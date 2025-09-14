@@ -1027,14 +1027,14 @@ h1.yo {
 }
 
 .work .work-grid .box1 {
-  background-color: #222;
-  border-radius: 6px;
-  padding: 0.5em;
-  width: 350px;
-  height: 200px;
-  border-top: 5px solid #18aaff;
-  border-right: 5px solid #18aaff;
-  margin-top: 15em;
+    background-color: #222;
+    border-radius: 6px;
+    padding: 0.5em;
+    width: 350px;
+    height: 200px;
+    border-top: 5px solid #2fff0a;
+    border-right: 5px solid #2fff0a;
+    margin-top: 15em;
 }
 
 .work .work-grid .box2 {
@@ -1042,20 +1042,20 @@ h1.yo {
   border-radius: 6px;
   padding: 0.5em;
   width: 350px;
-  height: 200px;
-  border-top: 5px solid #2fff0a;
-  border-right: 5px solid #2fff0a;
+  height: 215px;
+  border-top: 5px solid red;
+  border-right: 5px solid red;
 }
 
 .work .work-grid .box3 {
-  background-color: #222;
-  border-radius: 6px;
-  padding: 0.5em;
-  width: 350px;
-  height: 200px;
-  border-top: 5px solid turquoise;
-  border-right: 5px solid turquoise;
-  margin-top: 15em;
+    background-color: #222;
+    border-radius: 6px;
+    padding: 0.5em;
+    width: 350px;
+    height: 205px;
+    border-top: 5px solid #18aaff;
+    border-right: 5px solid #18aaff;
+    margin-top: 15em;
 }
 
 .work .top-head {
@@ -1085,8 +1085,12 @@ h1.yo {
   text-align: center;
 }
 
+.work .top-head h5.ctc {
+  color: red;
+}
+
 .work .top-head h5.tdsb {
-  color: #2fff0a;
+    color: #2fff0a;
 }
 
 .work .top-head h5.mgcs {
@@ -1123,12 +1127,12 @@ h1.yo {
 }
 
 .work .info h2 {
-  font-size: 1em;
+  font-size: 1.5em;
   width: 100%;
   color: white;
-  padding: 0.3em;
+  padding-bottom: 0.5em;
   text-align: center;
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Cambay Devanagari';
 }
 
 .work .info p {
@@ -1143,7 +1147,7 @@ h1.yo {
 
 .work .info button {
   display: block;
-  margin: 0 auto;
+  margin: 0em auto;
   padding: 0.5em;
   background: transparent;
   border: 1px solid white;
@@ -1160,8 +1164,11 @@ h1.yo {
 
 .work .info img {
   width: 90px;
-  border-radius: 50%;
   margin-left: 0.5em;
+}
+
+.tdsb-img, .mgcs-img {
+    border-radius: 50%;
 }
 
 .container2 {
