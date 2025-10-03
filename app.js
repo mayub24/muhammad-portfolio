@@ -42,8 +42,6 @@ buttons.forEach((eachBtn) => {
             projects.forEach((grid) => {
                 grid.children[0].parentElement.style.pointerEvents = 'auto';
                 grid.parentElement.style.display = 'flex';
-                document.querySelector('.soon').style.display = 'none';
-                document.querySelector('.soon').style.transition = '0.5s ease-in-out';
 
                 if (grid.children[0].className == 'img1') {
 
@@ -134,8 +132,6 @@ buttons.forEach((eachBtn) => {
             projects.forEach((grid) => {
                 grid.children[0].parentElement.style.pointerEvents = 'auto';
                 grid.parentElement.style.display = 'flex';
-                document.querySelector('.soon').style.display = 'none';
-                document.querySelector('.soon').style.transition = '0.5s ease-in-out';
 
                 if (grid.children[0].className == 'img1') {
 
@@ -233,8 +229,6 @@ buttons.forEach((eachBtn) => {
                     grid.children[0].parentElement.style.pointerEvents = 'none';
                 }
                 grid.parentElement.style.display = 'flex';
-                document.querySelector('.soon').style.display = 'none';
-                document.querySelector('.soon').style.transition = '0.5s ease-in-out';
 
                 if (grid.children[0].className == 'img1') {
 
@@ -323,10 +317,16 @@ buttons.forEach((eachBtn) => {
         }
         else if (e.target.id == 'btn4') {
             projects.forEach((grid) => {
+
                 grid.children[0].parentElement.style.pointerEvents = 'auto';
+                  if(grid.children[0].className == 'img2' ) {
+                    grid.children[0].parentElement.style.pointerEvents = 'none';
+                } else if (grid.children[0].className == 'img3') {
+                    grid.children[0].parentElement.style.pointerEvents = 'none';
+                } else if (grid.children[0].className == 'img4') {
+                    grid.children[0].parentElement.style.pointerEvents = 'none';
+                }
                 grid.parentElement.style.display = 'flex';
-                document.querySelector('.soon').style.display = 'none';
-                document.querySelector('.soon').style.transition = '0.5s ease-in-out';
 
                 if (grid.children[0].className == 'img1') {
 
@@ -335,11 +335,16 @@ buttons.forEach((eachBtn) => {
                     grid.parentElement.style.transition = '0.5s ease-in-out';
 
                     setTimeout(() => {
+                        grid.children[0].src = './job-search.png';
+                        grid.children[0].style.pointerEvents = 'none';
+                        console.log(grid.children[1].innerHTML = 'Job Seeker');
+                        console.log(grid.href = 'https://job-search-app-five-omega.vercel.app/');
+
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
-                        grid.parentElement.style.opacity = 0;
+                        grid.parentElement.style.opacity = 1;
                         grid.parentElement.style.transition = '0.5s ease-in-out';
-                        grid.parentElement.style.display = 'none';
+                        // grid.parentElement.style.display = 'none';
                     }, 1000);
 
                 }
@@ -352,11 +357,14 @@ buttons.forEach((eachBtn) => {
                     }, 400)
 
                     setTimeout(() => {
+                        grid.children[0].src = './food.png';
+                        grid.children[0].style.pointerEvents = 'none';
+                        console.log(grid.children[1].innerHTML = 'Food Recipe Tracker (Coming soon)');
+
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
-                        grid.parentElement.style.opacity = 0;
+                        grid.parentElement.style.opacity = 1;
                         grid.parentElement.style.transition = '0.5s ease-in-out';
-                        grid.parentElement.style.display = 'none';
                     }, 1300);
 
                 }
@@ -370,12 +378,15 @@ buttons.forEach((eachBtn) => {
                     }, 600)
 
                     setTimeout(() => {
+                        grid.children[0].src = './bitcoin.png';
+                        grid.children[0].style.pointerEvents = 'none';
+                        console.log(grid.children[1].innerHTML = 'Bitcoin Analyzer (Coming soon)');
+                        // console.log(grid.href = 'https://job-search-app-five-omega.vercel.app/');
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
-                        grid.parentElement.style.opacity = 0;
+                        grid.parentElement.style.opacity = 1;
                         grid.parentElement.style.transition = '0.5s ease-in-out';
-                        grid.parentElement.style.display = 'none';
                     }, 1700);
 
                 }
@@ -388,18 +399,16 @@ buttons.forEach((eachBtn) => {
                     }, 900)
 
                     setTimeout(() => {
+                        grid.children[0].src = './weather.png';
+                        grid.children[0].style.pointerEvents = 'none';
+                        console.log(grid.children[1].innerHTML = 'Weather Updater (Coming soon)');
+                        console.log(grid.href = 'https://job-search-app-five-omega.vercel.app/');
+
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
-                        grid.parentElement.style.opacity = 0;
+                        grid.parentElement.style.opacity = 1;
                         grid.parentElement.style.transition = '0.5s ease-in-out';
-                        grid.parentElement.style.display = 'none';
                     }, 2200);
-
-
-                    setTimeout(() => {
-                        document.querySelector('.soon').style.display = 'block';
-                        document.querySelector('.soon').style.transition = '0.5s ease-in-out';
-                    }, 900)
 
                 }
             })
@@ -409,8 +418,6 @@ buttons.forEach((eachBtn) => {
             projects.forEach((grid) => {
                 grid.children[0].parentElement.style.pointerEvents = 'auto';
                 grid.parentElement.style.display = 'flex';
-                document.querySelector('.soon').style.display = 'none';
-                document.querySelector('.soon').style.transition = '0.5s ease-in-out';
 
                 if (grid.children[0].className == 'img1') {
 
@@ -501,8 +508,6 @@ buttons.forEach((eachBtn) => {
             projects.forEach((grid) => {
                 grid.children[0].parentElement.style.pointerEvents = 'auto';
                 grid.parentElement.style.display = 'flex';
-                document.querySelector('.soon').style.display = 'none';
-                document.querySelector('.soon').style.transition = '0.5s ease-in-out';
 
                 if (grid.children[0].className == 'img1') {
 
