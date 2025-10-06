@@ -802,6 +802,18 @@ window.addEventListener('resize', (e) => {
 
 })
 
+// Check if counter exists in sessionStorage
+let visitCount = sessionStorage.getItem('visitCount');
+
+if (visitCount === null) {
+    visitCount = 1;
+} else {
+    visitCount = parseInt(visitCount) + 1;
+}
+
+// Update sessionStorage
+sessionStorage.setItem('visitCount', visitCount);
+
 
 window.onload = function () {
     var recaptcha = document.forms["netlify"]["g-recaptcha-response"];
