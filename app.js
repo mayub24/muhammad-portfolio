@@ -319,9 +319,7 @@ buttons.forEach((eachBtn) => {
             projects.forEach((grid) => {
 
                 grid.children[0].parentElement.style.pointerEvents = 'auto';
-                  if(grid.children[0].className == 'img2' ) {
-                    grid.children[0].parentElement.style.pointerEvents = 'none';
-                } else if (grid.children[0].className == 'img3') {
+                if (grid.children[0].className == 'img3') {
                     grid.children[0].parentElement.style.pointerEvents = 'none';
                 } else if (grid.children[0].className == 'img4') {
                     grid.children[0].parentElement.style.pointerEvents = 'none';
@@ -337,8 +335,8 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './job-search.png';
                         grid.children[0].style.pointerEvents = 'none';
-                        console.log(grid.children[1].innerHTML = 'Job Seeker');
-                        console.log(grid.href = 'https://job-search-app-five-omega.vercel.app/');
+                        grid.children[1].innerHTML = 'Job Seeker';
+                        grid.href = 'https://job-search-app-five-omega.vercel.app/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
@@ -359,7 +357,8 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './food.png';
                         grid.children[0].style.pointerEvents = 'none';
-                        console.log(grid.children[1].innerHTML = 'Food Recipe Tracker (Coming soon)');
+                        grid.children[1].innerHTML = 'Recipe Finder';
+                        grid.href = 'https://food-recipe-tracker.vercel.app/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
