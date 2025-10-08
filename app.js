@@ -321,9 +321,8 @@ buttons.forEach((eachBtn) => {
                 grid.children[0].parentElement.style.pointerEvents = 'auto';
                 if (grid.children[0].className == 'img3') {
                     grid.children[0].parentElement.style.pointerEvents = 'none';
-                } else if (grid.children[0].className == 'img4') {
-                    grid.children[0].parentElement.style.pointerEvents = 'none';
-                }
+                } 
+                
                 grid.parentElement.style.display = 'flex';
 
                 if (grid.children[0].className == 'img1') {
@@ -400,8 +399,8 @@ buttons.forEach((eachBtn) => {
                     setTimeout(() => {
                         grid.children[0].src = './weather.png';
                         grid.children[0].style.pointerEvents = 'none';
-                        console.log(grid.children[1].innerHTML = 'Weather Updater (Coming soon)');
-                        console.log(grid.href = 'https://job-search-app-five-omega.vercel.app/');
+                        grid.children[1].innerHTML = 'Weather Tracker';
+                        grid.href = 'https://weather-tracker-theta-puce.vercel.app/';
 
                         // Transition
                         grid.children[0].style.transition = '1s ease-in-out';
